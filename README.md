@@ -81,9 +81,9 @@ Sets up the **MountainCar-v0** environment:
 
 Install with:
 
-\\\ bash
+``` bash
 pip install torch gym numpy matplotlib
-\\\
+```
 
 ---
 
@@ -91,15 +91,15 @@ pip install torch gym numpy matplotlib
 
 To train the REINFORCE agent:
 
-\\\bash
+``` bash
 python Run_Model.py
-\\\
+```
 
 To run the naive version:
 
-\\\bash
+``` bash
 python naive-policy-gradient.py
-\\\
+```
 
 ---
 
@@ -110,6 +110,6 @@ python naive-policy-gradient.py
 
 ---
 
-## 📬 Contact
+## Contact
 
-Feel free to open issues or pull requests if you find any bugs or want to contribute!
+Feel free to open issues or pull requests if you find bugs or want to contribute!
