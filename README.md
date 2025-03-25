@@ -1,23 +1,23 @@
-# 🚀 Deep Reinforcement Learning with PyTorch – Policy Gradient
+# Deep Reinforcement Learning with PyTorch – Policy Gradient
 
 This repository implements core **Policy Gradient** algorithms in deep reinforcement learning using **PyTorch**. The goal is to train agents to solve environments like `MountainCar-v0` using **REINFORCE** and its variants.
 
 ---
 
-## 🧠 Overview
+## Overview
 
 Policy Gradient methods directly optimize the agent’s policy by following the **gradient of expected rewards**. This allows learning in environments with **high-dimensional** or **continuous action spaces**.
 
 This project demonstrates:
 
-- ✅ The basic **REINFORCE** algorithm  
-- ✅ **REINFORCE with a baseline** to reduce variance  
-- ✅ A **naive implementation** for learning purposes  
-- ✅ Structured **training and model execution logic**
+- The basic **REINFORCE** algorithm  
+- **REINFORCE with a baseline** to reduce variance  
+- A **naive implementation** for learning purposes  
+- Structured **training and model execution logic**
 
 ---
 
-## 🏞️ Environment
+## Environment
 
 - **Environment**: `MountainCar-v0` from [OpenAI Gym](https://gym.openai.com/)
 - **Objective**: The agent must learn to **swing the car** to reach the top of the hill
@@ -25,7 +25,7 @@ This project demonstrates:
 
 ---
 
-## 🎯 Learning Goals
+## Learning Goals
 
 - Understand how **Policy Gradient** algorithms work
 - Learn how **REINFORCE** performs updates using full-episode returns
@@ -34,7 +34,7 @@ This project demonstrates:
 
 ---
 
-## 📁 File Descriptions
+## File Descriptions
 
 ### `PolicyGradient.py`
 Encapsulates the `PolicyGradient` class:
@@ -71,7 +71,7 @@ Sets up the **MountainCar-v0** environment:
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 - Python 3.x
 - `torch`
@@ -81,9 +81,9 @@ Sets up the **MountainCar-v0** environment:
 
 Install with:
 
-\`\`\`bash
+\\\ bash
 pip install torch gym numpy matplotlib
-\`\`\`
+\\\
 
 ---
 
@@ -91,19 +91,19 @@ pip install torch gym numpy matplotlib
 
 To train the REINFORCE agent:
 
-\`\`\`bash
+\\\bash
 python Run_Model.py
-\`\`\`
+\\\
 
 To run the naive version:
 
-\`\`\`bash
+\\\bash
 python naive-policy-gradient.py
-\`\`\`
+\\\
 
 ---
 
-## 📌 References
+## References
 
 - [Policy Gradient Methods for RL](https://papers.nips.cc/paper_files/paper/1999/hash/464d828b85b0bed98e80ade0a5c43b0f-Abstract.html)
 - OpenAI Gym documentation: https://www.gymlibrary.dev
